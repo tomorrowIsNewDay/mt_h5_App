@@ -15,6 +15,6 @@ ReactDom.render(
         <ConnectedRouter history={history}>
             <Container />
         </ConnectedRouter>
-        </Provider>,
+    </Provider>,
     document.getElementById('root')
 );
