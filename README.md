@@ -36,3 +36,14 @@
 - 适配html的font-size
 在index.html 中引入/static/rem.js
 订阅resize事件，根据document.documentElement.clientWidth / 10 来设置html的font-size(px)
+
+
+#### 项目启动
+1. 安装依赖
+> yarn install
+
+2. 启动
+> yarn run dev
+
+3. 打包
+> yarn run build
