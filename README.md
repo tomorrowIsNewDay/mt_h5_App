@@ -47,3 +47,13 @@
 
 3. 打包
 > yarn run build
+
+#### 项目预览
+<div width="1200">
+<img src="./assets/imgs/homepage.jpg" width="300" hegiht="500" />
+<img src="./assets/imgs/list.jpg" width="300" hegiht="500" />
+<img src="./assets/imgs/detail.jpg" width="300" hegiht="500" />
+<img src="./assets/imgs/sale.jpg" width="300" hegiht="500" />
+<img src="./assets/imgs/pingjia.jpg" width="300" hegiht="500" />
+<img src="./assets/imgs/my.jpg" width="300" hegiht="500" />
+</div>
