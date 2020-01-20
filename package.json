@@ -30,7 +30,7 @@
       "react-loadable": "^5.4.0",
       "redux-logger": "^3.0.6",
       "webpack": "^4.10.2",
-      "webpack-cli": "^2.0.12",
+      "webpack-cli": "^3.1.1",
       "webpack-dev-server": "^3.2.1",
       "write-file-webpack-plugin": "^4.2.0"
     },

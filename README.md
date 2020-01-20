@@ -16,7 +16,7 @@
 ----- index.html page的根html <br/>
 ----- index.js page的根js <br/>
 ----- store.js  <br/>
--- dev <br/>
+-- dev  // development时需要的静态数据<br/>
 -- webpack.config.dev.js //多页面配置 <br/>
 
 #### 移动端配置

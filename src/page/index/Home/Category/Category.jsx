@@ -15,11 +15,13 @@ import { getHeaderData } from '../../actions/categoryAction';
 class Category extends React.Component {
     constructor(props) {
         super(props);
+    }
+    componentDidMount(){
         this.fetchData();
     }
 
     fetchData(){
-        this.props.dispatch(getHeaderData())
+        this.props.getHeaderData()
     }
     goCategory(){
         window.location.href = './category.html';
@@ -48,5 +50,6 @@ class Category extends React.Component {
 export default connect(
     state =>({
         items: state.categoryReducer.items
-    })
+    }),
+    { getHeaderData }
 )(Category);
