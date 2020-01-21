@@ -24,8 +24,7 @@ const store = createStore(
                     applyMiddleware(thunk,historyMiddl),
                     reduxDevtools
                 )
-            );
-
+             );
 
 if (module.hot) {
     module.hot.accept('./reducers/main', ()=>{
